@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/me.jpg">
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <title>Blackjack</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Mmadou B Diallo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">About</a>
+                        <ul>
+                            <li><a href="#">Good</a></li>
+                            <li><a href="#">Okay</a></li>
+                            <li><a href="#">Well</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li><a href="#">Information</a>
+                        <ul>
+                            <li><a href="#">Phone</a></li>
+                            <li><a href="#">Adres</a></li>
+                            <li><a href="#">Locat</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li><a href="#">Activities</a>
+                        <ul>
+                            <li><a href="#">Event</a></li>
+                            <li><a href="#">Trips</a></li>
+                            <li><a href="#">Meets</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="container">
+            <h2>Black Jack Card</h2>
+            <h3><span id="rsut-1">Play</span></h3>
+            <div class="flex-box-1">
+
+                <div id="f-box">
+                    <h2>First:<span id="f1">0</span></h2>
+                </div>
+
+                <div id="s-box">
+                    <h2>Second:<span id="f2">0</span></h2>
+                </div>
+            </div>
+
+            <div class="flex-box">
+                <div>
+                    <button class="btn btn-primary mr-5" id="btn-1">push</button>
+                    <button class="btn btn-warning mr-5" id="btn-2">robo</button>
+                    <button class="btn btn-danger" id="btn-3">dlte</button>
+                </div>
+            </div>
+
+            <div class="flex-box">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Wins</th>
+                            <th>Loss</th>
+                            <th>Ties</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="w">0</td>
+                            <td id="l">0</td>
+                            <td id="t">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="game.js"></script>
+</body>
+
+</html>
